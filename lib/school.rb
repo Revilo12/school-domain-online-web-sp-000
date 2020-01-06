@@ -1,4 +1,5 @@
 # code here!
+require pry
 class School
   attr_reader :name, :roster
   
@@ -8,7 +9,9 @@ class School
   end
   
   def add_student(name, grade)
+    binding..pry
     roster[grade] = [] if roster[grade] = nil 
+    binding.pry
     roster[grade] << name
   end
   
