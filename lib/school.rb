@@ -1,6 +1,3 @@
-# code here!
-$ gem install pry
-$ pry
 require 'pry'
 class School
   attr_reader :name, :roster
